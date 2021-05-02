@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  react-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./podcastrnext:/app/
+    command: ["yarn", "dev"]
+
+  json-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3333:3333"
+    volumes:
+      - ./podcastrnext:/app/
+    command: ["yarn", "server"]
