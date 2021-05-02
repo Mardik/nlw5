@@ -4,7 +4,7 @@
   <a href="https://www.linkedin.com/in/thiago-almeida-3130a1194/">
     <img alt="Linkedin" src="https://img.shields.io/badge/-Thiago%20Almeida-29B6D1?label=Linkedin&logo=linkedin&style=flat-square">
   </a>
-  <a href="https://github.com/Mardik/nlw5/main/blob/.github/LICENSE.txt">
+  <a href="https://github.com/Mardik/nlw5/blob/main/.github/LICENSE.txt">
     <img alt="GitHub license" src="https://img.shields.io/github/license/Mardik/nlw5?logo=mint&style=flat-square">
   </a>
   <a href="https://github.com/Mardik/nlw5/issues">
@@ -72,8 +72,8 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 # Clone este repositório.
 $ git clone https://github.com/Mardik/nlw5.git
 
-# Vá para a pasta podcastr-nlw05
-$ cd podcastr-nlw05
+# Vá para a pasta nlw5
+$ cd nlw5
 
 # Instala as dependências e faz o build das imagens
 $ docker-compose run react-app yarn install
